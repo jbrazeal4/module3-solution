@@ -1,1 +1,63 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Food, LLC</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+    <nav id="header-nav" class="navbar navbar-expand-md navbar-default">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h1>Food, LLC</h1>
+            </a>
+            <button id="toggle-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
 
+            <div id="collapsable-nav" class="collapse navbar-collapse in">
+                <ul id="nav-list" class="nav navbar-nav ml-auto">
+                    <hr><li class="nav-item">
+                        <a class="nav-link" href="#">Chicken</a>
+                    </li><hr>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beef</a>
+                    </li><hr>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sushi</a>
+                    </li><hr>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<style>
+  </style>
+  <div class="row">
+  	<br><hr><h2 class="text-center">Our Menu</h2><hr>
+  <div class="col-lg-1 col-md-1 col-sm-1">
+  	<h3 class="text-center"> Chicken</h3>
+  <p> This is a bunch of random text. This is a bunch of random text. This is a bunch of random text. This is a bunch of random text. This is a bunch of random text. This is a bunch of random text.</p>
+  </div>
+</div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+ <script>
+const toggleButton = document.getElementById('toggle-button');
+const collapsableNav = document.getElementById('collapsable-nav');
+
+toggleButton.addEventListener('click', () => {
+  collapsableNav.classList.toggle('show');
+});
+</script>
+
+</body>
