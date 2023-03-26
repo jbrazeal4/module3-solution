@@ -100,6 +100,7 @@ p{
   border-radius: 4px !important;
   margin-right: 50px;
   margin-top: 50px;
+  cursor: pointer;
   }
 }
 .navbar-toggle .icon-bar {
@@ -118,7 +119,7 @@ p{
   margin-top: 4px;
 }
 
-.navbar-toggle:hover + #collapsable-nav{
+.navbar-toggle:onclick + #collapsable-nav{
   display: block;
 }
 
